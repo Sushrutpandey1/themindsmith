@@ -1,0 +1,815 @@
+CRITICAL - 2022-04-25 00:06:00 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Api->index()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-25 00:50:09 --> Column 'user_name' cannot be null
+CRITICAL - 2022-04-25 00:50:09 --> Column 'user_name' cannot be null
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Api.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Api->create()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-25 00:50:21 --> Column 'user_name' cannot be null
+CRITICAL - 2022-04-25 00:50:21 --> Column 'user_name' cannot be null
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Api.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Api->create()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-25 00:56:10 --> Column 'user_name' cannot be null
+CRITICAL - 2022-04-25 00:56:10 --> Column 'user_name' cannot be null
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Api.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Api->create()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-25 03:04:03 --> Table 'mindsmith.apiusers' doesn't exist
+CRITICAL - 2022-04-25 03:04:03 --> Table 'mindsmith.apiusers' doesn't exist
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\themindsmith\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\themindsmith\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Register.php(32): CodeIgniter\BaseModel->save(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Register->index()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-25 03:05:58 --> Allowed fields must be specified for model: App\Models\ApiUserModel
+#0 C:\xampp\htdocs\themindsmith\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ApiU...')
+#1 C:\xampp\htdocs\themindsmith\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\themindsmith\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\themindsmith\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\themindsmith\app\Controllers\Register.php(32): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Register->index()
+#6 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-25 03:40:15 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-04-25 03:40:15 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(24): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->index()
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-25 03:41:09 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-04-25 03:41:09 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(24): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->index()
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-25 03:41:38 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-25 03:41:38 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\themindsmith\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\themindsmith\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(31): CodeIgniter\BaseModel->save(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->index()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-25 03:41:40 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-25 03:41:40 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\themindsmith\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\themindsmith\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(31): CodeIgniter\BaseModel->save(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->index()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-25 03:41:55 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-25 03:41:55 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\themindsmith\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\themindsmith\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(31): CodeIgniter\BaseModel->save(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->index()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-25 03:41:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\themindsmith\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-25 03:43:14 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-25 03:43:14 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\themindsmith\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\themindsmith\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(31): CodeIgniter\BaseModel->save(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->index()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-25 03:43:15 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-25 03:43:15 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\themindsmith\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\themindsmith\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(31): CodeIgniter\BaseModel->save(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->index()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-25 03:43:18 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-25 03:43:18 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\themindsmith\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\themindsmith\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(31): CodeIgniter\BaseModel->save(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->index()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-25 03:43:19 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-25 03:43:19 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\themindsmith\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\themindsmith\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(31): CodeIgniter\BaseModel->save(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->index()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-25 03:43:29 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-25 03:43:29 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\themindsmith\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\themindsmith\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(31): CodeIgniter\BaseModel->save(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->index()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-25 03:43:29 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\themindsmith\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-25 03:44:31 --> Column 'user_name' cannot be null
+CRITICAL - 2022-04-25 03:44:31 --> Column 'user_name' cannot be null
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(31): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->index()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-25 03:45:08 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_name', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_name', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(18): CodeIgniter\HTTP\IncomingRequest->getVar('user_name')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->index()
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-25 04:04:19 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+CRITICAL - 2022-04-25 04:04:19 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(54): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->login()
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-25 04:04:19 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\themindsmith\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-25 04:09:36 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 04:09:44 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 04:10:04 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 04:12:35 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 04:12:56 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 04:13:08 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 04:14:35 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 04:16:38 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 04:19:56 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 04:19:59 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 04:19:59 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-25 04:21:30 --> Column 'user_name' cannot be null
+CRITICAL - 2022-04-25 04:21:30 --> Column 'user_name' cannot be null
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(31): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->insert()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-25 04:45:52 --> Array to string conversion
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\User_controller.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\User_controller->add_user()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 05:11:47 --> Signature verification failed
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(91): Firebase\JWT\JWT::decode(', eyJ0eXAiOiJKV...', Object(Firebase\JWT\Key))
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 05:12:10 --> Signature verification failed
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(91): Firebase\JWT\JWT::decode(', eyJ0eXAiOiJKV...', Object(Firebase\JWT\Key))
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 05:12:15 --> Signature verification failed
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(91): Firebase\JWT\JWT::decode(', eyJ0eXAiOiJKV...', Object(Firebase\JWT\Key))
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 05:30:29 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:30:37 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:35:36 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:35:52 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:36:19 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:36:33 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:36:43 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:36:57 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:37:09 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:37:27 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:41:31 --> Call to a member function getHeader() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:41:49 --> Call to a member function getHeader() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:43:36 --> Call to undefined method CodeIgniter\HTTP\Header::findAll()
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:43:45 --> Call to undefined method CodeIgniter\HTTP\Header::findAll()
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:43:51 --> Call to undefined method CodeIgniter\HTTP\Header::findAll()
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:45:45 --> Call to a member function getHeader() on array
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:50:35 --> Class "App\Controllers\doctor_Model" not found
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Doctorapi_controller->AllDoctors()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctorapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 05:55:26 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_email', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_email', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(47): CodeIgniter\HTTP\IncomingRequest->getVar('user_email')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->login()
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 06:02:39 --> Undefined variable $user
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->login()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 06:09:05 --> Undefined variable $password
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->login()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 06:10:13 --> md5() expects at most 2 arguments, 3 given
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(51): md5('6789', '%???2;E8??\x18\x1F\ebM...', '2y')
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->login()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 06:25:27 --> Undefined variable $is_email
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->login()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-25 06:29:18 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+CRITICAL - 2022-04-25 06:29:18 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(53): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->login()
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-25 06:29:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\themindsmith\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-25 06:29:30 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+CRITICAL - 2022-04-25 06:29:30 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(53): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->login()
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-25 06:29:30 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\themindsmith\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-25 06:30:11 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+CRITICAL - 2022-04-25 06:30:11 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(53): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->login()
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-25 06:30:11 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\themindsmith\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-25 06:32:41 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+CRITICAL - 2022-04-25 06:32:41 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(53): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->login()
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-25 06:32:41 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\themindsmith\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-25 06:33:03 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+CRITICAL - 2022-04-25 06:33:03 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(53): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->login()
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-25 06:33:03 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\themindsmith\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-25 06:33:49 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+CRITICAL - 2022-04-25 06:33:49 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(53): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->login()
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-25 06:33:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\themindsmith\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\themindsmith\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\themindsmith\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-25 06:38:21 --> Undefined variable $data
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 129)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 06:44:35 --> Undefined variable $request
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 06:44:54 --> Call to a member function getHeader() on array
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 06:45:03 --> Call to a member function getHeader() on array
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 06:45:34 --> Call to a member function getHeader() on array
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-25 06:46:03 --> Call to undefined method App\Models\User_Model::getHeader
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(112): CodeIgniter\Model->__call('getHeader', Array)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 06:48:24 --> Undefined variable $request
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 06:49:00 --> Undefined variable $request
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 06:49:10 --> Undefined variable $request
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 06:49:27 --> Call to a member function getHeader() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->readAllUser()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-25 07:12:40 --> Unknown column 'article_id' in 'order clause'
+CRITICAL - 2022-04-25 07:12:40 --> Unknown column 'article_id' in 'order clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Articles_api_controller.php(103): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Articles_api_controller->AllArticles()
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articles_api_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-25 07:26:29 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_id', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_id', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(117): CodeIgniter\HTTP\IncomingRequest->getVar('user_id')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->getuser('5')
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 07:26:39 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_id', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_id', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(117): CodeIgniter\HTTP\IncomingRequest->getVar('user_id')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->getuser()
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 07:28:33 --> Undefined variable $payload
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 122)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->getuser()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 07:34:10 --> Undefined variable $null
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 142)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->getuser()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-25 07:39:17 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_id', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_id', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(117): CodeIgniter\HTTP\IncomingRequest->getVar('user_id')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->getuser()
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

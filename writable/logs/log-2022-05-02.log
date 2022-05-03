@@ -1,0 +1,1261 @@
+CRITICAL - 2022-05-02 02:15:46 --> Undefined property: stdClass::$user_name
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 167)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 02:16:06 --> Undefined property: stdClass::$user_name
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 167)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 02:17:01 --> Undefined property: stdClass::$user_email
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 168)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 02:47:29 --> Undefined property: stdClass::$user_name
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 168)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-02 02:48:01 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 02:48:01 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(188): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 02:49:01 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 02:49:01 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(188): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('4')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 02:49:04 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 02:49:04 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(188): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('4')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 02:49:09 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 02:49:09 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(188): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 02:49:48 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 02:49:48 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(188): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 02:49:52 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 02:49:52 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(188): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-02 02:51:36 --> Undefined variable $json
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 166)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-02 02:51:54 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 02:51:54 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(188): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 02:54:09 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 02:54:09 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(205): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 02:54:46 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 02:54:46 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(205): CodeIgniter\Model->update('', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-02 02:56:23 --> Undefined array key "user_name"
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 178)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 02:57:18 --> Attempt to read property "user_name" on array
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 167)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-02 02:58:09 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 02:58:09 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(187): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-02 02:58:31 --> There is no data to update.
+#0 C:\xampp\htdocs\themindsmith\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\themindsmith\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(187): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#6 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-02 02:58:52 --> Too few arguments to function App\Controllers\Userapi_controller::update(), 0 passed in C:\xampp\htdocs\themindsmith\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 03:04:36 --> Too few arguments to function App\Controllers\Userapi_controller::update(), 0 passed in C:\xampp\htdocs\themindsmith\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 03:04:55 --> Too few arguments to function App\Controllers\Userapi_controller::update(), 0 passed in C:\xampp\htdocs\themindsmith\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-02 03:05:05 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:05:05 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '7')
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(233): CodeIgniter\BaseModel->find('7')
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-02 03:07:44 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:07:44 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '7')
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(233): CodeIgniter\BaseModel->find('7')
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-02 03:07:50 --> Too few arguments to function App\Controllers\Userapi_controller::update(), 0 passed in C:\xampp\htdocs\themindsmith\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 03:08:28 --> Too few arguments to function App\Controllers\Userapi_controller::update(), 0 passed in C:\xampp\htdocs\themindsmith\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-02 03:08:40 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:08:40 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '7')
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(233): CodeIgniter\BaseModel->find('7')
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-02 03:09:50 --> Too few arguments to function App\Controllers\Userapi_controller::update(), 0 passed in C:\xampp\htdocs\themindsmith\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-02 03:11:11 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:11:11 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 7)
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(233): CodeIgniter\BaseModel->find(7)
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-02 03:12:59 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:12:59 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(187): CodeIgniter\Model->update('7', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 03:13:10 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:13:10 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(187): CodeIgniter\Model->update('7', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 03:13:15 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:13:15 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(187): CodeIgniter\Model->update('7', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 03:13:21 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:13:21 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(187): CodeIgniter\Model->update('', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-02 03:14:40 --> Undefined property: stdClass::$user_id
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 167)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-02 03:15:01 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:15:01 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(188): CodeIgniter\Model->update('7', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-02 03:15:15 --> Too few arguments to function App\Controllers\Userapi_controller::update(), 0 passed in C:\xampp\htdocs\themindsmith\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-02 03:15:27 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:15:27 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(188): CodeIgniter\Model->update('7', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 03:15:55 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:15:55 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(188): CodeIgniter\Model->update('7', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 03:22:39 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:22:39 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '7')
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\BaseModel->find('7')
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-02 03:22:45 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:22:45 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('1')
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-02 03:22:56 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:22:56 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\BaseModel->find('4')
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('4')
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-02 03:23:01 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:23:01 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\BaseModel->find('4')
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('4')
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-02 03:24:31 --> Too few arguments to function App\Controllers\Userapi_controller::update(), 0 passed in C:\xampp\htdocs\themindsmith\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 03:24:37 --> Too few arguments to function App\Controllers\Userapi_controller::update(), 0 passed in C:\xampp\htdocs\themindsmith\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-02 03:25:00 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:25:00 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '7')
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\BaseModel->find('7')
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-02 03:29:46 --> Undefined property: App\Controllers\Userapi_controller::$student
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 162)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:29:52 --> Undefined property: App\Controllers\Userapi_controller::$student
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 162)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:30:23 --> Undefined property: App\Controllers\Userapi_controller::$student
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 162)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:30:28 --> Undefined property: App\Controllers\Userapi_controller::$student
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 162)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:30:36 --> Undefined property: App\Controllers\Userapi_controller::$student
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 162)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:30:59 --> Undefined property: App\Controllers\Userapi_controller::$student
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 162)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:31:10 --> Undefined property: App\Controllers\Userapi_controller::$student
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 162)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-02 03:34:00 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:34:00 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(177): CodeIgniter\Model->update('7', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 03:34:47 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:34:47 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(177): CodeIgniter\Model->update('5', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('5')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 03:37:06 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:37:06 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\BaseModel->find('4')
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete('4')
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-02 03:38:22 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:38:22 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\BaseModel->find('4')
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete('4')
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-02 03:39:29 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 03:39:29 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+#6 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\BaseModel->find('6')
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete('6')
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-02 03:41:30 --> Too few arguments to function App\Controllers\Userapi_controller::delete(), 0 passed in C:\xampp\htdocs\themindsmith\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 03:46:50 --> Undefined property: App\Controllers\Userapi_controller::$model
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete('3')
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:47:00 --> Undefined property: App\Controllers\Userapi_controller::$model
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:47:13 --> Undefined property: App\Controllers\Userapi_controller::$model
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:47:54 --> Object of class App\Models\User_Model could not be converted to string
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 03:48:01 --> Object of class App\Models\User_Model could not be converted to string
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete('2')
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 03:48:08 --> Object of class App\Models\User_Model could not be converted to string
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete('2')
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 03:48:12 --> Object of class App\Models\User_Model could not be converted to string
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 03:48:56 --> Undefined property: App\Controllers\Userapi_controller::$model
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 209)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:49:59 --> Undefined property: App\Controllers\Userapi_controller::$model
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 209)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:50:08 --> Undefined property: App\Controllers\Userapi_controller::$model
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 209)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete('3')
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:50:15 --> Undefined property: App\Controllers\Userapi_controller::$model
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 209)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:52:25 --> Undefined property: App\Controllers\Userapi_controller::$requuest
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:52:52 --> Undefined property: App\Controllers\Userapi_controller::$requuest
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:52:59 --> Undefined property: App\Controllers\Userapi_controller::$requuest
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete('4')
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:53:03 --> Undefined property: App\Controllers\Userapi_controller::$requuest
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete('2')
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:53:20 --> Undefined property: App\Controllers\Userapi_controller::$requuest
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:53:41 --> Undefined property: App\Controllers\Userapi_controller::$model
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:53:55 --> Undefined property: App\Controllers\Userapi_controller::$model
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 04:01:06 --> Undefined property: App\Controllers\Userapi_controller::$model
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 199)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 04:06:15 --> Undefined variable $data
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 197)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 04:09:02 --> Undefined property: App\Controllers\Userapi_controller::$model
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 200)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 04:10:32 --> Undefined property: App\Controllers\Userapi_controller::$apiModel
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 200)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->delete()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 04:22:06 --> Undefined property: stdClass::$user_name
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 167)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 04:22:28 --> Undefined variable $id
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 178)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 04:22:47 --> There is no data to update.
+#0 C:\xampp\htdocs\themindsmith\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\themindsmith\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(179): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#6 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-02 04:23:18 --> There is no data to update.
+#0 C:\xampp\htdocs\themindsmith\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\themindsmith\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(179): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#6 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-02 04:24:03 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 04:24:03 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(178): CodeIgniter\Model->update('7', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 04:24:11 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 04:24:11 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(178): CodeIgniter\Model->update('7', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 04:25:29 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 04:25:29 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(178): CodeIgniter\Model->update('7', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 04:25:36 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 04:25:36 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(178): CodeIgniter\Model->update('7', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-02 04:54:40 --> There is no data to update.
+#0 C:\xampp\htdocs\themindsmith\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\themindsmith\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(NULL, NULL)
+#3 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(178): CodeIgniter\Model->update()
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#6 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-02 04:55:36 --> There is no data to update.
+#0 C:\xampp\htdocs\themindsmith\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\themindsmith\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(NULL, NULL)
+#3 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(178): CodeIgniter\Model->update()
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#6 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-02 04:55:55 --> There is no data to update.
+#0 C:\xampp\htdocs\themindsmith\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\themindsmith\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(178): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#6 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-02 04:56:29 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_id', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_id', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(163): CodeIgniter\HTTP\IncomingRequest->getVar('user_id')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-02 04:56:40 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_id', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_id', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(163): CodeIgniter\HTTP\IncomingRequest->getVar('user_id')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-02 04:56:49 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_id', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_id', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(163): CodeIgniter\HTTP\IncomingRequest->getVar('user_id')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-02 04:56:57 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_id', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_id', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(163): CodeIgniter\HTTP\IncomingRequest->getVar('user_id')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-02 05:05:33 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_id', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_id', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(187): CodeIgniter\HTTP\IncomingRequest->getVar('user_id')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-02 05:05:38 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_id', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_id', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(187): CodeIgniter\HTTP\IncomingRequest->getVar('user_id')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-02 05:05:43 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 05:07:11 --> Undefined array key "user_name"
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 193)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-02 05:13:07 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 05:13:07 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(192): CodeIgniter\Model->update('7', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-02 05:13:12 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_id', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_id', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(187): CodeIgniter\HTTP\IncomingRequest->getVar('user_id')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-02 05:13:18 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_id', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_id', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(187): CodeIgniter\HTTP\IncomingRequest->getVar('user_id')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('7')
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-02 05:13:28 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 05:13:28 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(192): CodeIgniter\Model->update('8', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('8')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 05:13:42 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-05-02 05:13:42 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\themindsmith\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\themindsmith\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate('8')
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(192): CodeIgniter\BaseModel->save('8', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('8')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 05:14:45 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 05:14:45 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(192): CodeIgniter\Model->update('8', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('8')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 05:14:51 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 05:14:51 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(192): CodeIgniter\Model->update('8', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 05:15:00 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 05:15:00 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(192): CodeIgniter\Model->update('8', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('8')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-02 05:19:04 --> Undefined variable $user_name
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 187)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('8')
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 05:21:32 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_id', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_id', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(186): CodeIgniter\HTTP\IncomingRequest->getVar('user_id')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-02 05:22:49 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 05:22:49 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(194): CodeIgniter\Model->update('8', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 05:22:58 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 05:22:58 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(194): CodeIgniter\Model->update('8', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('8')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 05:23:04 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 05:23:04 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(194): CodeIgniter\Model->update('8', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-02 05:23:20 --> CodeIgniter\Model::set(): Argument #2 ($value) must be of type ?string, array given, called in C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php on line 194
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(194): CodeIgniter\Model->set('8', Array)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 05:23:35 --> CodeIgniter\Model::set(): Argument #2 ($value) must be of type ?string, array given, called in C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php on line 194
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(194): CodeIgniter\Model->set('8', Array)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 05:26:56 --> dot_array_search(): Argument #2 ($array) must be of type array, null given, called in C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php on line 536
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(536): dot_array_search('user_id', NULL)
+#1 C:\xampp\htdocs\themindsmith\system\HTTP\IncomingRequest.php(496): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_id', false, NULL, NULL)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(186): CodeIgniter\HTTP\IncomingRequest->getVar('user_id')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('8')
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-02 05:27:01 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 05:27:01 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(191): CodeIgniter\Model->update('', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 05:29:03 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 05:29:03 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(191): CodeIgniter\Model->update('', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 05:29:08 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 05:29:08 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(191): CodeIgniter\Model->update('', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-02 05:29:26 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 05:29:26 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(191): CodeIgniter\Model->update('', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-02 05:38:42 --> Call to undefined method App\Controllers\Userapi_controller::response()
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('8')
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 05:38:52 --> Call to undefined method App\Controllers\Userapi_controller::response()
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 05:39:08 --> Call to undefined method App\Controllers\Userapi_controller::response()
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 05:45:09 --> Undefined property: stdClass::$user_name
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 191)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-02 05:45:35 --> Unknown column 'add_user.id' in 'where clause'
+CRITICAL - 2022-05-02 05:45:35 --> Unknown column 'add_user.id' in 'where clause'
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `add_use...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `add_use...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `add_use...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `add_use...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(202): CodeIgniter\Model->update('8', Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->update('8')
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

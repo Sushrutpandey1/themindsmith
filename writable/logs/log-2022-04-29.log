@@ -1,0 +1,189 @@
+CRITICAL - 2022-04-29 01:33:19 --> Undefined variable $null
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Userapi_controller.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 142)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Userapi_controller->getuser()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Userapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 04:02:44 --> Undefined variable $id
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\add_schedule_slot_controller.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\add_schedule_slot_controller->index()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_schedule_slot_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 04:03:13 --> Undefined variable $doctor_id
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\add_schedule_slot_controller.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\add_schedule_slot_controller->index()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_schedule_slot_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 04:03:41 --> Undefined variable $doctor_name
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\add_schedule_slot_controller.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\add_schedule_slot_controller->index()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_schedule_slot_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 04:03:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\themindsmith\app\Views\admin\application\add_schedule_slot.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\themindsmith\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\themindsmith\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\themindsmith\system\Common.php(1092): CodeIgniter\View\View->render('/admin/applicat...', Array, true)
+#4 C:\xampp\htdocs\themindsmith\app\Controllers\add_schedule_slot_controller.php(19): view('/admin/applicat...', Array)
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\add_schedule_slot_controller->index()
+#6 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_schedule_slot_controller))
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-29 04:04:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\themindsmith\app\Views\admin\application\add_schedule_slot.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\themindsmith\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\themindsmith\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\themindsmith\system\Common.php(1092): CodeIgniter\View\View->render('/admin/applicat...', Array, true)
+#4 C:\xampp\htdocs\themindsmith\app\Controllers\add_schedule_slot_controller.php(19): view('/admin/applicat...', Array)
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\add_schedule_slot_controller->index()
+#6 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_schedule_slot_controller))
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-29 04:05:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\themindsmith\app\Views\admin\application\add_schedule_slot.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\themindsmith\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\themindsmith\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\themindsmith\system\Common.php(1092): CodeIgniter\View\View->render('/admin/applicat...', Array, true)
+#4 C:\xampp\htdocs\themindsmith\app\Controllers\add_schedule_slot_controller.php(19): view('/admin/applicat...', Array)
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\add_schedule_slot_controller->index()
+#6 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_schedule_slot_controller))
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-29 04:16:28 --> Undefined array key ""
+#0 C:\xampp\htdocs\themindsmith\app\Views\admin\application\add_schedule_slot.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\themindsmith\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\themindsmith\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\themindsmith\system\Common.php(1092): CodeIgniter\View\View->render('/admin/applicat...', Array, true)
+#4 C:\xampp\htdocs\themindsmith\app\Controllers\add_schedule_slot_controller.php(19): view('/admin/applicat...', Array)
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\add_schedule_slot_controller->index()
+#6 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_schedule_slot_controller))
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-29 04:29:31 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\themindsmith\app\Views\admin\application\add_schedule_slot.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\themindsmith\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\themindsmith\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\themindsmith\system\Common.php(1092): CodeIgniter\View\View->render('/admin/applicat...', Array, true)
+#4 C:\xampp\htdocs\themindsmith\app\Controllers\add_schedule_slot_controller.php(19): view('/admin/applicat...', Array)
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\add_schedule_slot_controller->index()
+#6 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_schedule_slot_controller))
+#7 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-29 04:37:50 --> Column 'doctor_id' cannot be null
+CRITICAL - 2022-04-29 04:37:50 --> Column 'doctor_id' cannot be null
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\add_schedule_slot_controller.php(51): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\add_schedule_slot_controller->add_doc_slot()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_schedule_slot_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-29 04:38:22 --> Column 'doctor_id' cannot be null
+CRITICAL - 2022-04-29 04:38:22 --> Column 'doctor_id' cannot be null
+#0 C:\xampp\htdocs\themindsmith\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\themindsmith\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\themindsmith\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\themindsmith\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\themindsmith\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\themindsmith\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\themindsmith\app\Controllers\add_schedule_slot_controller.php(51): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\add_schedule_slot_controller->add_doc_slot()
+#9 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_schedule_slot_controller))
+#10 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-29 04:59:22 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\themindsmith\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\themindsmith\system\Common.php(835): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\themindsmith\app\Controllers\add_schedule_slot_controller.php(80): redirect('success')
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\add_schedule_slot_controller->deleteslot('1')
+#4 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\add_schedule_slot_controller))
+#5 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-29 05:26:40 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Doctorapi_controller->insertdoc()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctorapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-29 05:28:32 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Doctorapi_controller->insertdoc()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctorapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-29 05:28:55 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Doctorapi_controller->insertdoc()
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctorapi_controller))
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-29 05:29:22 --> Undefined variable $name
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Doctorapi_controller.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Doctorapi_controller->insertdoc()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctorapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 05:47:54 --> Undefined variable $null
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Doctorapi_controller.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 188)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Doctorapi_controller->getdoc()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctorapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 05:48:28 --> Undefined variable $null
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Doctorapi_controller.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 188)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Doctorapi_controller->getdoc()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctorapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 07:01:57 --> Undefined variable $model
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Doctorapi_controller.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Doctorapi_controller->slot_by_doc_id()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctorapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 07:02:26 --> Undefined variable $model
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Doctorapi_controller.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Doctorapi_controller->slot_by_doc_id()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctorapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 07:57:57 --> Undefined variable $null
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Doctorapi_controller.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 191)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Doctorapi_controller->slot_list()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctorapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 08:01:02 --> Undefined variable $null
+#0 C:\xampp\htdocs\themindsmith\app\Controllers\Doctorapi_controller.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 199)
+#1 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(802): App\Controllers\Doctorapi_controller->slot_by_doc_id()
+#2 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Doctorapi_controller))
+#3 C:\xampp\htdocs\themindsmith\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\themindsmith\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
